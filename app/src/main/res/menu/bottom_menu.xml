@@ -8,8 +8,8 @@
         android:title="Artikel"
         app:showAsAction="always" />
     <item
-        android:id="@+id/createArtikelFragment2"
-        android:icon="@drawable/baseline_schedule_24"
-        android:title="Jadwal Praktek"
+        android:id="@+id/fasilitasListFragment"
+        android:icon="@drawable/baseline_construction_24"
+        android:title="Fasilitas"
         app:showAsAction="always" />
 </menu>

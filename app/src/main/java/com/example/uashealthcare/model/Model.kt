@@ -16,3 +16,12 @@ data class Artikel(
     @PrimaryKey(autoGenerate = true)
     var uuid:Int = 0
 }
+
+@Entity
+data class Fasilitas(
+    @ColumnInfo(name="nama")
+    var nama:String
+) {
+    @PrimaryKey(autoGenerate = true)
+    var uuid:Int = 0
+}

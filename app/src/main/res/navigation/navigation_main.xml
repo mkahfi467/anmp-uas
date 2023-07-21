@@ -34,4 +34,9 @@
             android:name="uuid"
             app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/fasilitasListFragment"
+        android:name="com.example.uashealthcare.view.FasilitasListFragment"
+        android:label="fragment_fasilitas_list"
+        tools:layout="@layout/fragment_fasilitas_list" />
 </navigation>
